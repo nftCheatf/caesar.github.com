@@ -9,7 +9,7 @@ const WarningSection = () => {
       
       <div className="relative z-10 container mx-auto px-6">
         {/* Main Warning Block */}
-        <div className="max-w-4xl mx-auto mb-8">
+        <div className="max-w-4xl mx-auto">
           <Alert className="bg-red-900/30 border-red-500 border-2 p-6 backdrop-blur-md">
             <AlertTriangle className="w-6 h-6 text-red-500" />
             <AlertDescription className="text-white">
@@ -25,54 +25,6 @@ const WarningSection = () => {
                     ⚠️ МЫ НЕ НЕСЁМ ОТВЕТСТВЕННОСТЬ ЗА БАН!
                   </div>
                 </div>
-              </div>
-            </AlertDescription>
-          </Alert>
-        </div>
-
-        {/* Technical Requirements */}
-        <div className="max-w-2xl mx-auto">
-          <h3 className="text-2xl font-bold text-center mb-6 text-white">
-            Технические особенности:
-          </h3>
-          
-          <div className="grid md:grid-cols-2 gap-4 mb-8">
-            <div className="bg-black/30 backdrop-blur-md border border-gray-700 rounded-lg p-4 hover:bg-black/40 transition-all duration-300">
-              <div className="flex items-center space-x-3 mb-2">
-                <Shield className="w-5 h-5 text-green-400" />
-                <span className="font-semibold text-green-400">Безопасность</span>
-              </div>
-              <ul className="text-gray-300 text-sm space-y-1">
-                <li>• Анимация красного мигающего текста</li>
-                <li>• Полупрозрачный чёрный фон</li>
-                <li>• Автоматическое затемнение при скролле</li>
-              </ul>
-            </div>
-
-            <div className="bg-black/30 backdrop-blur-md border border-gray-700 rounded-lg p-4 hover:bg-black/40 transition-all duration-300">
-              <div className="flex items-center space-x-3 mb-2">
-                <Smartphone className="w-5 h-5 text-blue-400" />
-                <span className="font-semibold text-blue-400">Требования</span>
-              </div>
-              <div className="text-gray-300 text-sm">
-                <div className="text-blue-400 font-semibold">
-                  • Совместимость с последними версиями
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Disclaimer */}
-          <Alert className="bg-black/30 backdrop-blur-md border-gray-600">
-            <AlertTriangle className="w-5 h-5 text-yellow-500" />
-            <AlertDescription className="text-gray-300">
-              <div className="text-center text-sm">
-                <p className="mb-2">
-                  Данное программное обеспечение предназначено исключительно для образовательных целей.
-                </p>
-                <p className="text-yellow-400 font-semibold">
-                  Использование читов может нарушать правила игр и приводить к блокировке аккаунтов.
-                </p>
               </div>
             </AlertDescription>
           </Alert>
