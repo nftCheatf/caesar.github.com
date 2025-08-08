@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
           {testimonialsData.map((testimonial) => (
             <Card 
               key={testimonial.id}
-              className="bg-gray-800/70 backdrop-blur-sm border border-gray-700 hover:border-red-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-red-500/20"
+              className="bg-black/30 backdrop-blur-md border border-gray-700 hover:border-red-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-red-500/20 hover:bg-black/40"
             >
               <CardContent className="p-6 text-center">
                 {/* Stars */}
@@ -57,7 +57,7 @@ const TestimonialsSection = () => {
 
         {/* Trust Indicators */}
         <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-2 bg-green-900/30 text-green-400 px-6 py-3 rounded-lg border border-green-500/30">
+          <div className="inline-flex items-center space-x-2 bg-green-900/30 text-green-400 px-6 py-3 rounded-lg border border-green-500/30 backdrop-blur-md">
             <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
             <span className="font-bold">4.9/5 — Средний рейтинг пользователей</span>
           </div>

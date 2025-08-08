@@ -35,7 +35,7 @@ const HeroSection = () => {
             АБСОЛЮТНОЕ ПРЕИМУЩЕСТВО
           </p>
           
-          <Badge variant="destructive" className="text-lg px-4 py-2 mb-12 animate-bounce">
+          <Badge variant="destructive" className="text-lg px-4 py-2 mb-12 animate-bounce bg-red-600/80 backdrop-blur-md">
             НЕВИДИМЫЙ ЧИТ 2025
           </Badge>
         </div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
               return (
                 <div 
                   key={feature.id}
-                  className="bg-gray-800/50 backdrop-blur-sm border border-red-900/30 rounded-lg p-6 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-red-500/20"
+                  className="bg-black/30 backdrop-blur-md border border-red-900/30 rounded-lg p-6 hover:bg-black/40 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-red-500/20"
                 >
                   <div className="flex items-center space-x-3">
                     <IconComponent className="w-6 h-6 text-red-500" />
@@ -70,7 +70,7 @@ const HeroSection = () => {
           <Button 
             onClick={handleTelegramClick}
             size="lg"
-            className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 text-xl rounded-lg transform hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-red-500/50"
+            className="bg-red-600/80 hover:bg-red-700/90 backdrop-blur-md text-white font-bold py-4 px-8 text-xl rounded-lg transform hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-red-500/50"
           >
             КУПИТЬ СЕЙЧАС
           </Button>

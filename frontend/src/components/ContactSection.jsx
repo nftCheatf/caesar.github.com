@@ -20,7 +20,7 @@ const ContactSection = () => {
           </h2>
 
           {/* Main Contact Card */}
-          <div className="bg-gray-800/70 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 mb-8 hover:border-red-400 transition-all duration-300">
+          <div className="bg-black/30 backdrop-blur-md border border-gray-700 rounded-2xl p-8 mb-8 hover:border-red-400 transition-all duration-300 hover:bg-black/40">
             <div className="flex flex-col items-center space-y-6">
               {/* Telegram Contact */}
               <div className="flex items-center space-x-4">
@@ -37,7 +37,7 @@ const ContactSection = () => {
               <Button
                 onClick={handleTelegramClick}
                 size="lg"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 text-xl rounded-lg transform hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-blue-500/50"
+                className="bg-blue-600/80 hover:bg-blue-700/90 backdrop-blur-md text-white font-bold py-4 px-8 text-xl rounded-lg transform hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-blue-500/50"
               >
                 <MessageCircle className="w-6 h-6 mr-2" />
                 СВЯЗАТЬСЯ СЕЙЧАС
@@ -49,7 +49,7 @@ const ContactSection = () => {
           <div className="flex justify-center">
             <Badge 
               variant="outline" 
-              className="text-yellow-400 border-yellow-500 px-4 py-2 text-base bg-yellow-900/20"
+              className="text-yellow-400 border-yellow-500 px-4 py-2 text-base bg-yellow-900/20 backdrop-blur-md"
             >
               <AlertTriangle className="w-4 h-4 mr-2" />
               ⚠️ {contactData.warning}

@@ -10,7 +10,7 @@ const WarningSection = () => {
       <div className="relative z-10 container mx-auto px-6">
         {/* Main Warning Block */}
         <div className="max-w-4xl mx-auto mb-8">
-          <Alert className="bg-red-900/30 border-red-500 border-2 p-6">
+          <Alert className="bg-red-900/30 border-red-500 border-2 p-6 backdrop-blur-md">
             <AlertTriangle className="w-6 h-6 text-red-500" />
             <AlertDescription className="text-white">
               <div className="text-center">
@@ -37,7 +37,7 @@ const WarningSection = () => {
           </h3>
           
           <div className="grid md:grid-cols-2 gap-4 mb-8">
-            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+            <div className="bg-black/30 backdrop-blur-md border border-gray-700 rounded-lg p-4 hover:bg-black/40 transition-all duration-300">
               <div className="flex items-center space-x-3 mb-2">
                 <Shield className="w-5 h-5 text-green-400" />
                 <span className="font-semibold text-green-400">Безопасность</span>
@@ -49,7 +49,7 @@ const WarningSection = () => {
               </ul>
             </div>
 
-            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+            <div className="bg-black/30 backdrop-blur-md border border-gray-700 rounded-lg p-4 hover:bg-black/40 transition-all duration-300">
               <div className="flex items-center space-x-3 mb-2">
                 <Smartphone className="w-5 h-5 text-blue-400" />
                 <span className="font-semibold text-blue-400">Требования</span>
@@ -63,7 +63,7 @@ const WarningSection = () => {
           </div>
 
           {/* Disclaimer */}
-          <Alert className="bg-gray-800/50 border-gray-600">
+          <Alert className="bg-black/30 backdrop-blur-md border-gray-600">
             <AlertTriangle className="w-5 h-5 text-yellow-500" />
             <AlertDescription className="text-gray-300">
               <div className="text-center text-sm">

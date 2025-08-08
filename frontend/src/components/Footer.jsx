@@ -1,6 +1,6 @@
 import React from 'react';
 import { Separator } from './ui/separator';
-import { MessageCircle, Shield, Zap } from 'lucide-react';
+import { MessageCircle, Shield } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-black border-t border-gray-800 text-white py-12">
       <div className="container mx-auto px-6">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-black mb-4">
@@ -27,29 +27,6 @@ const Footer = () => {
               <Shield className="w-5 h-5 text-green-400" />
               <span className="text-sm text-green-400 font-semibold">100% Безопасность</span>
             </div>
-          </div>
-
-          {/* Features */}
-          <div className="text-center">
-            <h4 className="text-lg font-bold mb-4 text-red-400">Возможности</h4>
-            <ul className="space-y-2 text-gray-400 text-sm">
-              <li className="flex items-center justify-center space-x-2">
-                <Zap className="w-4 h-4 text-yellow-400" />
-                <span>Aimbot 4.0 с ИИ</span>
-              </li>
-              <li className="flex items-center justify-center space-x-2">
-                <Zap className="w-4 h-4 text-yellow-400" />
-                <span>Невидимый Wallhack</span>
-              </li>
-              <li className="flex items-center justify-center space-x-2">
-                <Zap className="w-4 h-4 text-yellow-400" />
-                <span>Zero Recoil 2.0</span>
-              </li>
-              <li className="flex items-center justify-center space-x-2">
-                <Zap className="w-4 h-4 text-yellow-400" />
-                <span>FPS Booster 144Hz+</span>
-              </li>
-            </ul>
           </div>
 
           {/* Contact */}
