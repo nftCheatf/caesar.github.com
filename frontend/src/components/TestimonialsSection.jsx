@@ -11,8 +11,8 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <div className="py-20 bg-gradient-to-b from-gray-900 to-black text-white relative">
-      <div className="absolute inset-0 bg-red-900/10"></div>
+    <div className="py-20 bg-black text-white relative">
+      <div className="absolute inset-0 bg-gradient-to-r from-red-900/20 via-transparent to-red-900/20"></div>
       
       <div className="relative z-10 container mx-auto px-6">
         <div className="text-center mb-16">

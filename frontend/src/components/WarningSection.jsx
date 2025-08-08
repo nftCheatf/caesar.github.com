@@ -4,8 +4,8 @@ import { AlertTriangle, Shield, Smartphone } from 'lucide-react';
 
 const WarningSection = () => {
   return (
-    <div className="py-16 bg-gray-900 text-white relative">
-      <div className="absolute inset-0 bg-red-900/10"></div>
+    <div className="py-16 bg-black text-white relative">
+      <div className="absolute inset-0 bg-gradient-to-r from-red-900/20 via-transparent to-red-900/20"></div>
       
       <div className="relative z-10 container mx-auto px-6">
         {/* Main Warning Block */}

@@ -11,7 +11,7 @@ const ContactSection = () => {
 
   return (
     <div className="py-20 bg-black text-white relative">
-      <div className="absolute inset-0 bg-gradient-to-r from-gray-900/30 via-transparent to-gray-900/30"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-red-900/20 via-transparent to-red-900/20"></div>
       
       <div className="relative z-10 container mx-auto px-6">
         <div className="text-center max-w-4xl mx-auto">

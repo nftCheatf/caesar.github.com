@@ -18,9 +18,8 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white relative overflow-hidden">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-red-900/20 via-transparent to-red-900/20"></div>
       
       {/* Content */}
