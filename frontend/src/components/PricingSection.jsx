@@ -57,7 +57,7 @@ const PricingSection = () => {
           {pricingData.map((plan) => (
             <Card 
               key={plan.id}
-              className={`relative bg-gray-800/70 backdrop-blur-sm border-2 transition-all duration-300 hover:scale-105 hover:shadow-2xl ${
+              className={`relative bg-black/30 backdrop-blur-md border-2 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-black/40 ${
                 plan.isLifetime 
                   ? 'border-yellow-500 shadow-yellow-500/30' 
                   : plan.popular 
