@@ -55,8 +55,8 @@ const WarningSection = () => {
                 <span className="font-semibold text-blue-400">Требования</span>
               </div>
               <div className="text-gray-300 text-sm">
-                <div className="text-yellow-400 font-semibold">
-                  ⚠️ Версия 2025 требует Android 9.0+
+                <div className="text-blue-400 font-semibold">
+                  • Совместимость с последними версиями
                 </div>
               </div>
             </div>
